@@ -1,0 +1,321 @@
+main {
+  margin:5% 10%;
+}
+.playersection{
+  border-end-end-radius: 1px solid red;
+  border-radius: 10px;
+  position: relative;
+  bottom: 20px;
+
+}
+
+.playerimage{
+  width: 200px;
+}
+.left-section{
+  padding: 15px 35px;
+  display:flex;
+  background-color: black;
+  border-radius: 10px;
+ margin-top: 20px;
+ align-items: center;
+}
+.mymatch{ 
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 650px;
+  justify-content: center;
+ 
+}
+.match{
+  position: relative;
+  left: 220px;
+  bottom: 220px; 
+}
+.text{
+  padding:2px 10px;
+  font-size: 14px;
+  width: 170px;
+  color: steelblue
+}
+.heading-name{
+  width: 280px;
+  font-size: 40px;
+  color: white;
+}
+.live-link{
+  margin:15px 0px;
+  padding: 8px 17px;
+  background-color:rgb(255, 38, 0);
+  border: 1px solid rgb(255, 38, 0);
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  
+}
+.secondposition2{
+  display: flex;
+  position: relative;
+  left: 230px;
+  top: -200px;
+}
+h3{
+  text-align: center;
+
+}
+.schedule
+{
+ margin-top: 80px;
+  height: 200px;
+  width: 210px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 5px;
+}
+.schedules
+{
+  font-size: 20px;
+  margin: 25px;
+  background-color: white;
+  text-align: center;
+ 
+}
+.matches-schedule{
+   margin:20px 10px;
+  border: 1px solid silver;
+  background-color: white;
+  border-radius: 5px;
+  width: 200px;
+}
+.border{
+  border: 8px solid white;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.blog{
+  background-color: red;
+  border: 5px solid red;
+  border-radius: 8px;
+}
+.transfer{
+  border: 1px solid black;
+  width: 25%;
+  margin: 5px 5px;
+  padding: 0px 10px;
+  text-align: center;
+}
+.icon{
+  margin: 5px;
+}
+small{
+  margin: 15px 0px, 0px 0px;
+}
+footer{
+  height: 300px;
+  background-color: black;
+}
+.fheader{
+  color: white;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+hr{
+  position: relative;
+  width: 80%;
+  top: 140px;
+  opacity: 0.2;
+}
+span{
+  color: white;
+
+}
+.Contactlist{
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+  top: 150px;
+  opacity: 0.5;
+}
+.socialicon{
+  position: relative;
+  top: 200px;
+  left: 700px;
+}
+.soc{
+  width: 2%;
+}
+
+.textposition{
+  width: 150px;
+  margin-left: 40px;
+}
+.vs{
+  padding: 10px;
+  text-align: center;
+  margin-left: -70px;
+}
+
+.secondposition2{
+  bottom: 100px;
+  display: flex;
+  width: 20px;
+}
+.upcomingmatch{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 70px;
+  width: 685px;
+
+}
+
+.view{
+  display: none;
+}
+.vs{
+  font-size: 20px;
+  color: black;
+}
+.giimage{
+  width: 50px;
+}
+.textposition{
+  width: 125px;
+}
+@media screen and (max-width:992px) and (min-width:575px){
+  .mymatch{
+   grid-template-columns: repeat(2,1fr);
+   width: 100%; 
+   gap: 30px;
+   justify-items: center;
+  }
+  .upcomingmatch{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   width:100%; 
+   gap: 30px;
+   justify-items: center;
+    position: relative;
+    left: -220px;
+    top: 80px;
+  }
+
+  .matches-schedule{
+    width: 100%;
+  }
+  .playerimage{
+    width: 100%;
+  }
+  .match{
+    left: 0px;
+  }
+  .view{
+    display: inline;
+    position: relative;
+    margin: 20px;
+    left: 170px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 5px;
+  }
+  .schedule{
+    display: flex;
+    margin-bottom: 220px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border: none;
+  }
+  .border{
+    border: 1px solid silver;
+    padding: 3px;
+    width: 100%;
+  }
+  .schedule .blog{
+    width: 100%;
+  }
+  .left-section{
+    width: 100%;
+  }
+  .bigplayer{
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:574px){
+  .left-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    width: 100%;
+  }
+  .upcomingmatch{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   width:100%; 
+      gap: 30px;
+   justify-items: center;
+    position: relative;
+    left: -220px;
+    top: 80px;
+  }
+  .ps2{
+    width: 100%;
+  }
+  .ls2{
+    width: 100%;
+  }
+
+  .schedule{
+    margin-bottom: 300px;
+    width: 100%;
+  }
+  .se{
+    display:flex;
+    background-color: white;
+    height: 200px;
+    border: none;
+    margin: 40px;
+    width: 100%;
+  }
+  .ft{
+  position: relative;
+  left: 50px;
+  width: 100%;
+  }
+  .sb{
+    height: 30px;
+    width: 100%;
+  }
+  .mymatch{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .match{
+    left:0px;
+    
+  }
+  .matches-schedule{
+    width: 100%;
+  }
+  .playerimage{
+    width: 100%;
+  }
+
+  .Contactlist{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    width: 100%;
+  }
+footer{
+  height: 400px;
+}
+}
